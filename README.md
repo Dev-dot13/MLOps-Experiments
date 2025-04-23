@@ -1,44 +1,101 @@
-**This repository contains Experiments related to Machine Learning Operations.**
-Following is the list of experiments:
+⚙️ Machine Learning Operations Experiments
+This repository contains a collection of experiments related to Machine Learning Operations (MLOps). Each experiment demonstrates best practices in model training, versioning, reproducibility, performance evaluation, and more.
 
-**exp2:**
-Model Training and Versioning using a Simple Dataset: In this assignment, we worked with a small dataset (e.g., the Iris dataset) to build and manage versions of a basic machine learning model. Tasks Performed:
-i.	Data Preparation:
-ii.	Model Training:
-iii.	Hyperparameter Tuning:
-iv.	Record the results for comparison.
-v.	Model Versioning: Save each trained model as a separate version using meaningful filenames (e.g., model_v1.pkl, model_v2.pkl).
+📚 Experiments Overview
+✅ Experiment 2: Model Training and Versioning
+🔍 Objective: Work with a simple dataset (e.g., Iris dataset) to train models and manage their versions.
 
-**exp3:**
-Saving and Reusing a Machine Learning Model: In this assignment, we trained a machine learning model using a simple dataset and learned how to save and reuse the model without retraining. Tasks Performed:
-i.	Train a Model:
-ii.	Save the Model:
-iii.	Reuse the Model:
+Tasks Performed:
 
-**exp4:**
-Creating a Reproducible ML Pipeline using Jupyter and Virtual Environment: Tasks Performed:
-i.	Set up a virtual environment using venv or conda.
-ii.	Install necessary libraries like scikit-learn, pandas, matplotlib.
-iii.	Create a Jupyter notebook that:
-iv.	Loads a dataset (e.g., Titanic, Wine).
-v.	Performs data preprocessing.
-vi.	Trains a simple model.
-vii.	Save the notebook and environment dependencies (requirements.txt).
-viii.	Share the notebook and environment setup on GitHub for others to reproduce.
+📂 Data Preparation
 
-**exp5:**
-Exploratory Data Analysis (EDA) and Report Generation: Tasks Performed:
-i.	Choose a public dataset (e.g., from Kaggle or UCI Repository).
-ii.	Perform data cleaning, null value handling, and visualization using seaborn or matplotlib.
-iii.	Generate insights like correlations, distributions, and outliers.
-iv.	Export the EDA results as a PDF report (use nbconvert, matplotlib, or pandas_profiling).
-v.	Commit the EDA notebook and report to your GitHub repository.
+🧠 Model Training
 
-**exp6:**
-Visualizing Model Performance: Tasks Performed:
-i.	Train a binary classification model (e.g., Logistic Regression).
-ii.	Plot and save:
-iii.	Confusion matrix
-iv.	Precision-Recall curve
-v.	Compare performance between two models and explain which one is better.
-vi.	Save all visualizations in a results/ directory in your repo.
+🎛️ Hyperparameter Tuning
+
+📝 Result Recording & Comparison
+
+📁 Model Versioning
+
+Models saved as model_v1.pkl, model_v2.pkl, etc., to track iterations.
+
+✅ Experiment 3: Saving and Reusing ML Models
+🔍 Objective: Train a model once and reuse it without retraining.
+
+Tasks Performed:
+
+🧠 Train a Model
+
+💾 Save the Model
+
+♻️ Reload and Reuse the Model
+
+✅ Experiment 4: Reproducible ML Pipeline
+🔍 Objective: Create a fully reproducible ML workflow using Jupyter and virtual environments.
+
+Tasks Performed:
+
+⚙️ Set up virtual environment (venv / conda)
+
+📦 Install necessary libraries (scikit-learn, pandas, matplotlib)
+
+📓 Jupyter Notebook includes:
+
+Dataset loading (e.g., Titanic, Wine)
+
+Data preprocessing
+
+Model training
+
+💾 Save requirements.txt
+
+☁️ Upload notebook + environment files to GitHub for reproducibility
+
+✅ Experiment 5: Exploratory Data Analysis (EDA) & Reporting
+🔍 Objective: Perform EDA on public datasets and generate insightful reports.
+
+Tasks Performed:
+
+🌐 Choose dataset (e.g., from Kaggle or UCI Repository)
+
+🧹 Clean data, handle missing values
+
+📊 Visualizations with seaborn/matplotlib
+
+🔍 Insights on correlation, distribution, and outliers
+
+📄 Export EDA report as PDF (using nbconvert / pandas_profiling)
+
+📥 Commit both notebook and report to the repository
+
+✅ Experiment 6: Visualizing Model Performance
+🔍 Objective: Evaluate and compare classification model performance through visual tools.
+
+Tasks Performed:
+
+🧠 Train a binary classifier (e.g., Logistic Regression)
+
+📊 Generate visualizations:
+
+Confusion Matrix
+
+Precision-Recall Curve
+
+🔎 Compare multiple models and determine the best
+
+📂 Store all visuals in a results/ directory
+
+🧰 Tools & Libraries Used
+Python 🐍
+
+Scikit-learn ⚙️
+
+Pandas 🐼
+
+Matplotlib 📈
+
+Seaborn 🌊
+
+Jupyter Notebooks 📒
+
+venv / conda for environments
